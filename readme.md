@@ -2,6 +2,61 @@
 
 This is a Dice class for a dice game. Dice holds the number of dots. The number of dots is between 1 and given upper bound (included). The maximum upper bound is 20. The minimum upper bound is 2. If the dice hasn't been rolled, thenumber of dots is 0. After the dice has been rolled, the dot count can't become 0 again.
 
+## Technologies used
+
+Built with:
+
+- Node
+- JS
+- Jest
+
+## Setup and usage
+
+## 1. Install jest as devDependency
+
+```shell
+> npm install jest --save-dev
+```
+
+## 2. Run the dice
+
+```shell
+> node program.js
+```
+
+## 3. To run tests
+
+```shell
+> npm test
+```
+
+### 3B. To run only one test file
+
+```shell
+> npm test --testFile fileToBeTested.test.js
+```
+
+## Screenshots
+
+![alt text](./src/Components/Images/main.png) "Main View"
+
+![alt text](./src/Components/Images/solution.png) "Solution view"
+
+## Sources
+
+- Business College Helsinki. Unit testing lessons.
+
+## Authors and acknowledgment
+
+Abel Parada
+
+- [GitHub @abel-parada](https://github.com/abel-parada)
+- [LinkedIn](https://www.linkedin.com/in/abelparadamillan/)
+
+---
+
+# Specifications
+
 ## Operations
 
 ### **constructor(upperBound)**
@@ -43,3 +98,5 @@ This is a Dice class for a dice game. Dice holds the number of dots. The number 
 #### **maximumValue**
 
 - returns the upper bound of the dice.
+
+---
