@@ -21,7 +21,7 @@ Built with:
 ## 2. Run the dice
 
 ```shell
-> node program.js
+> node dice.js
 ```
 
 ## 3. To run tests
@@ -42,7 +42,7 @@ Built with:
 
 ![alt text](./src/Components/Images/solution.png) "Solution view"
 
-## Sources
+## Sources and support
 
 - Business College Helsinki. Unit testing lessons.
 
@@ -89,14 +89,12 @@ Abel Parada
 
 #### **dots**
 
-- returns the number oof dots
+- returns the number of dots
 
 #### **minimumValue**
 
-- returns the minimum of dots. It should be 1.
+- returns the minimum number of dots. It should be 1.
 
 #### **maximumValue**
 
 - returns the upper bound of the dice.
-
----
