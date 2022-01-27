@@ -35,7 +35,17 @@ module.exports = class Dice {
 
     roll(){
 
-        this.dotCount = Math.ceil(Math.random())*this.upperBound;
+        this.dotCount = Math.ceil(Math.random()*this.upperBound);
 
+    }
+
+    toString(){
+        // if(this.dotCount===0){
+        //     return 'Dice not rolled yet';
+        // }
+        // else {
+        //     return `${this.dotCount}`;
+        // }
+        return this.dotCount === 0 ? 'Dice not rolled yet' : `${this.dotCount}`;
     }
 }
