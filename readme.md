@@ -36,11 +36,12 @@ Built with:
 > npm test --testFile fileToBeTested.test.js
 ```
 
+<!--
 ## Screenshots
 
-![alt text](./src/Components/Images/main.png) "Main View"
+![alt text](main.png) "Main View"
 
-![alt text](./src/Components/Images/solution.png) "Solution view"
+![alt text](solution.png) "Solution view" -->
 
 ## Sources and support
 

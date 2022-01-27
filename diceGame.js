@@ -58,9 +58,15 @@ console.log(`Wins for a: ${wins.Awins}\nWins for b: ${wins.Bwins}\nTies: ${wins.
 // Beginning of coin toss
 const coin = new Dice(2);
 coin.roll();
-console.log(`\nFlipping a coin.\nResult:${coin.dots === 1 ? 'heads' : 'tails'}`);
+console.log(`\nFlipping a coin.\nResult:${coin.dots === 1 ? 'heads' : 'tails'}\n`);
 // End of coin toss
 
 const diceArray=[new Dice(), new Dice(), new Dice()];
 diceArray.forEach(dice => console.log(dice.toString()));
+diceArray.forEach(dice => dice.roll());
+diceArray.forEach(dice => console.log(dice.toString()));
+console.log('\n');
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+const result = diceArray.reduce((sum,dice) => sum + dice.dots, 0); 
+console.log(`Sum of dots is ${result}`);
